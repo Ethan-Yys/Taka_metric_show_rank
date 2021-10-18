@@ -80,7 +80,9 @@ def get_color():
         if Taka_group[i] == 'G_3000_3499':
             color.append('#FF0000')
         elif Taka_group[i] == 'avg':
-            color.append('#00EE00')
+            color.append('#68F709')
+        elif Taka_group[i] == 'H_3500_3999':
+            color.append('#F79709')
         else:
             color.append('#5CACEE')
     return color
